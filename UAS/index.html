@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenPulse</title>
+  <link rel="icon" href="img/logo.ico" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-green-500 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center gap-2">
+        <img src="img/logo.png" alt="logo" class="w-10 h-10">
+        <a href="/" class="text-2xl font-bold">GreenPulse</a>
+      </div>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="index.html" class="hover:underline">Home</a></li>
+          <li><a href="about.html" class="hover:underline">About</a></li>
+          <li><a href="learn.html" class="hover:underline">Learn</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home Page -->
+  <main class="container mx-auto px-4 py-8">
+    <!-- Hero Section -->
+    <section class="flex flex-col md:flex-row items-center text-center md:text-left mb-12 pt-8">
+      <div class="mb-8 md:mb-0 md:w-1/2">
+        <img src="img/hero.png" alt="Hero Image" class="w-full h-auto mx-auto md:mx-0">
+      </div>
+      <div class="md:w-1/2 md:pl-8">
+        <h2 class="text-4xl font-bold mb-4 text-green-600">Harmoni Teknologi dan Alam untuk Masa Depan yang Lebih Hijau</h2>
+        <p class="text-xl mb-6">Meningkatkan kesadaran tentang teknologi ramah lingkungan melalui informasi yang mudah diakses.</p>
+        <a href="learn.html" class="inline-flex items-center bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600 transition-colors">Jelajahi Lebih Lanjut</a>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="grid md:grid-cols-3 gap-8 mb-12">
+      <div class="bg-gray-100 p-6 rounded-lg text-center">
+        <i data-lucide="Leaf" class="mx-auto text-green-500 mb-4 h-12 w-12"></i>
+        <h3 class="text-xl font-semibold mb-2">Teknologi Hijau</h3>
+        <p>Pelajari tentang inovasi ramah lingkungan terbaru</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg text-center">
+        <i data-lucide="Zap" class="mx-auto text-green-500 mb-4 h-12 w-12"></i>
+        <h3 class="text-xl font-semibold mb-2">Efisiensi Energi</h3>
+        <p>Temukan cara mengoptimalkan penggunaan energi</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg text-center">
+        <i data-lucide="Recycle" class="mx-auto text-green-500 mb-4 h-12 w-12"></i>
+        <h3 class="text-xl font-semibold mb-2">Daur Ulang</h3>
+        <p>Pelajari pentingnya daur ulang untuk lingkungan</p>
+      </div>
+    </section>
+
+    <!-- Why GreenTech Section -->
+    <section class="bg-green-100 p-8 rounded-lg mb-12">
+      <h3 class="text-2xl font-bold mb-4">Mengapa GreenTech Penting?</h3>
+      <p class="mb-4">Teknologi ramah lingkungan membantu kita mengurangi dampak negatif terhadap planet, sambil tetap
+        menikmati kemajuan modern. Dengan GreenTech, kita dapat menciptakan masa depan yang lebih berkelanjutan untuk
+        generasi mendatang.</p>
+      <a href="about.html" class="text-green-600 hover:underline inline-flex items-center">Pelajari lebih lanjut <span
+          class="ml-2">&rarr;</span></a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2024 Avav Abdillah Sam. All rights reserved.</p>
+      <p class="mt-2">Tugas Akhir Praktikum Pemrograman Website</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+
+</html>
